@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:text="Samuel Scott"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/me"
+        tools:srcCompat="@drawable/me" />
+
+    <Button
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:text="Experience"
+        android:textSize="18sp"
+        app:backgroundTint="#F7746E" />
+
+    <Button
+        android:id="@+id/callMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:text="Call Sam"
+        android:textSize="18sp"
+        app:backgroundTint="#F7746E" />
+
+    <Button
+        android:id="@+id/emailMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:text="Email Sam"
+        android:textSize="18sp"
+        app:backgroundTint="#F7746E" />
+
+</LinearLayout>
